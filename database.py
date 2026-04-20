@@ -10,5 +10,6 @@ client = AsyncIOMotorClient(MONGO_URL)
 
 db = client["commentwave"]
 
-users_collection = db["User_db"]
+users_collection    = db["User_db"]
 comments_collection = db["Talk_db"]
+banned_collection   = db["Banned_db"]
